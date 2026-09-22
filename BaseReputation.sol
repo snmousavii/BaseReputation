@@ -19,3 +19,8 @@ contract BaseReputation {
         return reputation[user];
     }
 
+   }
+
+    function getReputation(address user) external view returns (uint256) {
+        return reputation[user];
+    }
